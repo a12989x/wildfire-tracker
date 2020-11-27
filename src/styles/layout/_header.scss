@@ -1,0 +1,14 @@
+.header {
+    width: 100%;
+    z-index: 1;
+    background-color: $red-color;
+    color: $white-color;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+
+    @media screen and(max-width: 650px) {
+        font-size: 0.8rem;
+    }
+}
